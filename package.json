@@ -1,0 +1,28 @@
+{
+  "name": "steamstats",
+  "version": "1.0.0",
+  "description": "Steam API Statistics Delivery System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackwhelan/SteamStats.git"
+  },
+  "author": "Jack Whelan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackwhelan/SteamStats/issues"
+  },
+  "homepage": "https://github.com/jackwhelan/SteamStats#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.16",
+    "nodemon": "^2.0.4"
+  }
+}
